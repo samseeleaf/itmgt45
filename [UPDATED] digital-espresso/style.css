@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding 0;
+    font-family: "patrick hand";
+    background-color: #FAF8F6;
+}
+
+.body{
+    background-color: #faf8f6;
+}
+
+.banner{ 
+    height: 100%;
+    width: 100%;
+}
+
+.outernavbar{
+    width: 100%;
+    background-color: #FAF8F6;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#FAF8F6;
+    
+}
+
+.logo{
+    width: 180px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li:hover {
+    text-decoration: underline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #3B1100;
+    font-size: 18px;
+}
+
+.content{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    background-color: #FAF8F6;
+    color: #3B1100;
+}
+
+
+.digitalespresso{
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.content p{
+    font-size: 24px;
+}
+
+.content h3{
+    font-size: 18px;
+}
+
+.photosection {
+    margin-top: 120px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.homephotos{
+    height: 240px;
+    width: fit-content;
+}
+
+
+.captionsection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footersection{
+    background-color: #5C443B;
+    margin: auto;
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footersection2{
+    background-color: #5C443B;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footersection p{
+    font-size: 18px;
+    background-color: #5C443B;
+    color: #FAF8F6;
+    margin: 0 10px;
+
+}
+
+.footersection2 p{
+    font-size: 14px;
+    background-color: #5C443B;
+    color: #FAF8F6;
+    margin: 0 10px;
+
+}
+
+.logofooter{
+    height: 20px;
+    margin: 0 10px;
+    background-color: #5C443B;
+}
+
+
+.branchescontent {
+    text-align: center;
+    color:#3B1100;
+    background-color: #FAF8F6;
+    padding-top: 120px;
+ 
+}
+
+
+.branchescontent h2 {
+    font-size: 36px;
+    padding-bottom: 40px;
+
+}
+
+.branchescontent p {
+    font-size: 24px;
+}
+
+
+.logoaboutus{
+    width: 500px;
+}
+
+.aboutuscontent{
+    text-align:center;
+    padding: 120px 0 120px 0;
+}
+
+.aboutuscontent p{
+    font-size: 24px;
+    color:#3B1100;
+    padding: 60px 240px 160px 240px;
+}
+
+.productcontent{
+    text-align:center;
+    padding: 80px 0 80px 0;
+}
+
+.productcontent h1{
+    font-size: 32px;
+    color:#3B1100;
+    padding-bottom: 40px;
+    background-color: #FAF8F6;
+}
+
+.menutable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menutable tr td a{
+    text-decoration: none;
+}
+
+
+.producttable{
+
+}
+
+.producttable tr{
+    
+
+}
+
+.producttable tr td{
+    color:#3B1100;
+    text-align: center;
+
+}
+
+.producttable tr td{
+    text-decoration: none;
+}
+
+.productimage{
+    height: 320px;
+}
+
+.productlabel{
+    font-size: 24px;
+}
+
+
+.productprice{
+    font-size: 18px;
+}
+
+.drinktable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drinktable tr td{
+    width:368.13px;
+    color:#3B1100;
+    padding-bottom: 180px;
+}
+
+
+.drinkphoto{
+    height: 360px;
+}
+
+.drinktitle{
+    font-size: 48px;
+    text-transform: uppercase;
+
+}
+
+.drinkprice{
+    font-size: 32px;
+    padding-bottom: 24px;
+}
+
+.drinkdetails{
+    font-size: 24px;
+    padding-bottom: 32px;
+}
+
+
+.otherproducts{
+    border: none;
+    align-items: left;
+    padding:0%;
+    text-decoration: none;
+}
+
+.otherproducts p:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #FAF8F6;
+}
+
+
+.otherproducts p{
+    background-color:#5C443B;
+    color:#FAF8F6;
+    padding: 8px 16px 8px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.otherproducts a{
+    text-decoration: none;
+}
